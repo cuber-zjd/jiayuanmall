@@ -17,6 +17,10 @@
 		<module>jiayuanmall-member</module>
 		<module>jiayuanmall-order</module>
 		<module>jiayuanmall-product</module>
-	</modules>
+		<module>renren-fast</module>
+		<module>renren-generator</module>
+        <module>jiayuanmal_common</module>
+		<module>jiayuanmall-gateway</module>
+    </modules>
 
 </project>
