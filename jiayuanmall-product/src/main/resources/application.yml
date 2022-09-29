@@ -1,0 +1,24 @@
+
+spring:
+  datasource:
+    druid:
+      username: root
+      password: zhang
+      url: jdbc:mysql://192.168.136.100:3306/jiayuanmall_pms
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  application:
+    name: jiayuanmall-product
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.136.100:8848
+
+
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+
+server:
+  port: 10001
